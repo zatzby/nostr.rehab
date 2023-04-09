@@ -1,0 +1,43 @@
+/* Resets default margins and paddings for better cross-browser consistency */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the body element */
+body {
+  background-image: url('https://nostr.build/p/nb4903.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: cypherpunk, sans-serif;
+  font-size: 50px;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styling for the anchor element */
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Media queries for different screen sizes, adjusting font size */
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 20px;
+  }
+}
